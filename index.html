@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MyStore</title>
+    <!-- Tailwind CSS CDN for basic styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter for a clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif; /* Apply Inter font globally */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white py-4 shadow-md">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl font-bold">MyStore</h1>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow flex items-center justify-center p-4">
+        <section class="bg-white p-8 md:p-12 rounded-xl shadow-lg text-center max-w-2xl w-full">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Welcome to MyStore!</h2>
+            <p class="text-lg text-gray-700 mb-6">
+                Your one-stop shop for everything you need. Explore our wide range of products and find exactly what you're looking for.
+            </p>
+            <div class="relative w-full max-w-sm mx-auto mb-8 overflow-hidden rounded-lg shadow-md">
+                <img src="https://placehold.co/600x300/4F46E5/FFFFFF?text=Shop+Now" alt="Shop Now" class="w-full h-auto rounded-lg object-cover">
+            </div>
+            <a href="#" class="inline-block bg-green-500 text-white text-xl px-8 py-3 rounded-lg shadow-md hover:bg-green-600 transition-colors font-semibold">
+                Start Shopping
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 MyStore. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
